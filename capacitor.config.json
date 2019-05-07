@@ -1,6 +1,8 @@
 {
-  "appId": "net.keephacking.alzheimer",
-  "appName": "alzheimer",
+  "appId": "com.happyday.appAlzheimer",
+  "appName": "app-alzheimer",
   "bundledWebRuntime": false,
-  "webDir": "www"
+  "webDir": "www",
+  "npmClient": "npm" ,
+  "windowsAndroidStudioPath" : "D:\\android studio\\bin\\studio64.exe"
 }
