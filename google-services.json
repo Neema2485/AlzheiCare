@@ -1,34 +1,34 @@
 {
   "project_info": {
-    "project_number": "514403022396",
-    "firebase_url": "https://alzheimer-app123.firebaseio.com",
-    "project_id": "alzheimer-app123",
-    "storage_bucket": "alzheimer-app123.appspot.com"
+    "project_number": "1002558619889",
+    "firebase_url": "https://app-alzheimer123.firebaseio.com",
+    "project_id": "app-alzheimer123",
+    "storage_bucket": "app-alzheimer123.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:514403022396:android:fd995f6d535a7b63",
+        "mobilesdk_app_id": "1:1002558619889:android:7bb8bdaf7a9ad2d7",
         "android_client_info": {
-          "package_name": "com.happyday.alzhicare"
+          "package_name": "com.happyday.appAlzheimer"
         }
       },
       "oauth_client": [
         {
-          "client_id": "514403022396-e73ap2gdgl612u3lfkb129e2oos0av4k.apps.googleusercontent.com",
+          "client_id": "1002558619889-vkvnsner7orq43il6cnjl865arnkha9h.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAjZFdHGdDsyj6RC4GSFsU4e7k1ENhiO6Y"
+          "current_key": "AIzaSyBxoHZn8sufy132hx0HBo66CAnQ1r0F8Kk"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "514403022396-e73ap2gdgl612u3lfkb129e2oos0av4k.apps.googleusercontent.com",
+              "client_id": "1002558619889-vkvnsner7orq43il6cnjl865arnkha9h.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

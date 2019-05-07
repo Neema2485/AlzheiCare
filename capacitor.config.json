@@ -1,6 +1,6 @@
 {
   "appId": "com.happyday.appAlzheimer",
-  "appName": "app-alzheimer",
+  "appName": "AlzheiCare",
   "bundledWebRuntime": false,
   "webDir": "www",
   "npmClient": "npm",
