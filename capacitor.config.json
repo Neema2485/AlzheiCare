@@ -3,6 +3,6 @@
   "appName": "app-alzheimer",
   "bundledWebRuntime": false,
   "webDir": "www",
-  "npmClient": "npm" ,
-  "windowsAndroidStudioPath" : "D:\\android studio\\bin\\studio64.exe"
+  "npmClient": "npm",
+  "windowsAndroidStudioPath": "D:\\android studio\\bin\\studio64.exe"
 }

@@ -21,21 +21,21 @@
       </ion-card>
       <ion-card class="col-item" (click)="viewPatient()" *ngIf="userService.isCareTaker$ | async">
         <!-- <ion-icon name="infinite" color='secondary'></ion-icon> -->
-        <img src="/assets/patient.png" alt="" />
+        <img src="/assets/patient2.png" alt="" />
         <div class="col-label">
           Patient
         </div>
       </ion-card>
       <ion-card class="col-item" routerLink="/tips" *ngIf="userService.isCareTaker$ | async">
         <!--<ion-icon name="help" color='secondary'></ion-icon> -->
-        <img src="/assets/tips.png" alt="" />
+        <img src="/assets/tips2.png" alt="" />
         <div class="col-label">
           Tips
         </div>
       </ion-card>
       <ion-card class="col-item" (click)="viewPatient()" *ngIf="userService.isPatient$ | async">
         <!-- <ion-icon name="infinite" color='secondary'></ion-icon> -->
-        <img src="/assets/patient.png" alt="" />
+        <img src="/assets/profile2.jpg" alt="" />
         <div class="col-label">
           Profile
         </div>
@@ -48,7 +48,7 @@
         disableOnClickTrigger="true"
       >
         <!-- <ion-icon name="infinite" color='secondary'></ion-icon> -->
-        <img src="/assets/location.jpg" alt="" />
+        <img src="/assets/location2.png" alt="" />
         <div class="col-label">
           Home Location
         </div>
@@ -60,7 +60,7 @@
         appLocation
         disableOnClickTrigger="true"
       >
-        <img src="/assets/location.jpg" alt="" />
+        <img src="/assets/location2.png" alt="" />
         <div class="col-label">
           Track
         </div>
@@ -76,14 +76,14 @@
       </ion-card>
       <ion-card class="col-item" *ngIf="userService.isPatient$ | async" [routerLink]="['/families/', user?.Uid]">
         <!-- <ion-icon name="infinite" color='secondary'></ion-icon> -->
-        <img src="/assets/family.png" alt="" />
+        <img src="/assets/family2.jpg" alt="" />
         <div class="col-label">
           Family
         </div>
       </ion-card>
       <ion-card class="col-item" routerLink="/gallery">
       <!--  <ion-icon name="images" color='secondary'></ion-icon> -->
-      <img src="/assets/gallery.png" alt="" />
+      <img src="/assets/gallery2.png" alt="" />
         <div class="col-label">
           Gallery
         </div>
@@ -91,7 +91,7 @@
       <!---->
       <ion-card class="col-item align-self-end" (click)="onLogOut()">
       <!--  <ion-icon name="log-out" color="danger"></ion-icon> -->
-      <img src="/assets/logout.png" alt="" />
+      <img src="/assets/logout2.png" alt="" />
         <div class="col-label">
           Log Out
         </div>
@@ -99,6 +99,6 @@
     </div>
   </div>
 </ion-content>
-<app-drawer [options]="drawerOptions" *ngIf="userService.isPatient$ | async" #drawer>
+<!--<app-drawer [options]="drawerOptions" *ngIf="userService.isPatient$ | async" #drawer>
   <app-device-connect [drawer]="drawer"></app-device-connect>
-</app-drawer>
+</app-drawer> -->
