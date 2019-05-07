@@ -1,13 +1,15 @@
 <ion-card>
+    <img [src]="data?.ImagePath" alt=" " />
   <ion-card-header>
     <ion-card-title>{{ data.FullName }}</ion-card-title>
     <ion-card-subtitle>Relation :{{ data.Relation }}</ion-card-subtitle>
     <ion-card-subtitle>Email :{{ data.EmailId }}</ion-card-subtitle>
     <ion-card-subtitle>Phone :{{ data.PhoneNumber }}
-      <a ion-button href="tel:{{ data.PhoneNumber }}">Call</a>
+      <ion-button shape="round" size="small" border-radius="7px" href="tel:{{ data.PhoneNumber }}">Call</ion-button>
+      <ion-button shape="round" size="small" border-radius="7px" href="sms:{{ data.PhoneNumber }}">SMS</ion-button>
     </ion-card-subtitle>
   </ion-card-header>
-  <img [src]="data?.ImagePath" alt=" " />
+  
   <ion-card-content>
     <p>Age: {{ calculateAge(data?.DOB) }}</p>
     <p>Record Created Date : {{ data?.CreatedAt ? (data?.CreatedAt.toDate() | date) : "" }}</p>
