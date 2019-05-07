@@ -27,7 +27,8 @@
         </div>
       </ion-card>
       <ion-card class="col-item" routerLink="/tips" *ngIf="userService.isCareTaker$ | async">
-        <ion-icon name="help" color='secondary'></ion-icon>
+        <!--<ion-icon name="help" color='secondary'></ion-icon> -->
+        <img src="/assets/tips.png" alt="" />
         <div class="col-label">
           Tips
         </div>
@@ -66,9 +67,10 @@
       </ion-card>
       <ion-card class="col-item" *ngIf="userService.isPatient$ | async">
         <a href="tel:{{ user.PhoneNumber }}" class="home-icon-link">
-          <ion-icon name="call" color="secondary"></ion-icon>
+       <!--   <ion-icon name="call" color="secondary"></ion-icon> -->
+       <img src="/assets/call.png" alt="" />
           <div class="col-label">
-            Care Taker
+            My CareTaker
           </div>
         </a>
       </ion-card>
@@ -80,14 +82,16 @@
         </div>
       </ion-card>
       <ion-card class="col-item" routerLink="/gallery">
-        <ion-icon name="images" color='secondary'></ion-icon>
+      <!--  <ion-icon name="images" color='secondary'></ion-icon> -->
+      <img src="/assets/gallery.png" alt="" />
         <div class="col-label">
           Gallery
         </div>
       </ion-card>
       <!---->
       <ion-card class="col-item align-self-end" (click)="onLogOut()">
-        <ion-icon name="log-out" color="danger"></ion-icon>
+      <!--  <ion-icon name="log-out" color="danger"></ion-icon> -->
+      <img src="/assets/logout.png" alt="" />
         <div class="col-label">
           Log Out
         </div>
